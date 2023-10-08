@@ -55,10 +55,6 @@ public class Main {
 
         sortedArrays.addAll(oddArrays);
 
-        for (Integer[] s : sortedArrays) {
-            System.out.println(Arrays.toString(s));
-        }
-
         return sortedArrays;
     }
 }
